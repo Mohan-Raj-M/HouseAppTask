@@ -34,9 +34,7 @@ const IndexScreen = ({navigation}) => {
               onPress={() => {
                 navigation.navigate('show', {id: item._id});
               }}>
-              <View style={styles.row}>
-                <Text style={styles.title}>{item.name}</Text>
-              </View>
+              <View style={styles.row} />
             </TouchableOpacity>
           );
         }}
