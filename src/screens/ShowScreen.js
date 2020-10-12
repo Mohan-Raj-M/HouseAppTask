@@ -9,16 +9,7 @@ const ShowScreen = ({navigation}) => {
   return (
     <View>
       <Text style={styles.details}>House Name :</Text>
-      <Text style={styles.title}>{Houses.name}</Text>
-      <Text style={styles.details}>Founder :</Text>
-      <Text style={styles.content}>{Houses.founder}</Text>
-      <Text style={styles.details}>School :</Text>
-      <Text style={styles.content}>{Houses.school}</Text>
-      <Text style={styles.details}>House ghost :</Text>
-      <Text style={styles.content}>{Houses.houseGhost}</Text>
-      <Text style={styles.details}>mascot :</Text>
-      <Text style={styles.content}>{Houses.mascot}</Text>
-      <Text style={styles.details}>House Head :</Text>
+
       <Text style={styles.content}>{Houses.headOfHouse}</Text>
     </View>
   );
